@@ -66,12 +66,13 @@ instead of the generic autoencoder, set `AE_USE_QUADRATIC_PREDICTOR = True` in `
 Results are written to `out/<mode>/`:
 
 - `results/` — `metrics.txt` plus mask, magnitude, and loss-curve figures
+- `training-data/` — the cached `(X₁, X₂)` arrays and ground-truth masks
+
 
 ## Data set:
 
 Coordinator's data-set is available at:
 https://github.com/alexfikl/2025-fractal-connectomes-paper-experiments
-- `training-data/` — the cached `(X₁, X₂)` arrays and ground-truth masks
 
 A GPU is used automatically when available (`USE_CUDA_IF_AVAILABLE` in `defines.py`); otherwise the CPU
 is used. Re-running a mode overwrites its `out/<mode>/` folder, so archive anything worth keeping first.
