@@ -1,0 +1,2 @@
+Thesis coordinator_s data-set is available at:
+https://github.com/alexfikl/2025-fractal-connectomes-paper-experiments
